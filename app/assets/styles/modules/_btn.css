@@ -1,0 +1,25 @@
+
+.btn {
+    display: inline-block;
+    background-color: $mainBlue;
+    color: #FFFFFF;
+    padding: .75rem 1.2rem;
+
+    &--large {
+        font-size: .75rem;
+        font-weight: 300;
+        line-height: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        color: #FFFFFF;
+        padding: 0.4rem 0.7rem;
+        border: 2px solid $mainBlue;
+    
+         @mixin Small {
+            font-size: 1.1rem;
+            
+        }
+
+    
+    }
+}
